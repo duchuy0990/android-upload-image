@@ -10,7 +10,7 @@ import java.sql.SQLException;
 
 public class JDBCconnection extends AsyncTask<String, Void, Void> {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://10.0.3.2:3306/imageUpload"; //type your Database URL
+    static final String DB_URL = "jdbc:mysql://10.0.3.2:3306/imageUpload"; //"jdbc:mysql://host:port/db_name"
 
     static final String USER = "root";
     static final String PASS = "";

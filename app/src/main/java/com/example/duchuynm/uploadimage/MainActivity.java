@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
     ProgressDialog progressDialog;
 
+
     private void init() {
         chooseImage = findViewById(R.id.btnChooseImage);
         uploadImageToServer = findViewById(R.id.btnUploadtoServer);
@@ -99,7 +100,28 @@ public class MainActivity extends AppCompatActivity {
 
             File file = new File(filePath);
 
-            ftpConnection ftpconn = new ftpConnection(filePath, MainActivity.this);
+            final ftpConnection ftpconn = new ftpConnection(
+                    filePath,
+                    MainActivity.this) {
+
+                @Override
+                protected void onPreExecute() {
+                    super.onPreExecute();
+                    showProgressDialog();
+                }
+
+                @Override
+                protected void onPostExecute(Object o) {
+                    super.onPostExecute(o);
+                    progressDialog.dismiss();
+                    if((boolean)o) {
+                        Toast.makeText(MainActivity.this,"successfully",Toast.LENGTH_LONG).show();
+                    }
+                    else {
+                        Toast.makeText(MainActivity.this,"loi khong xac dinh",Toast.LENGTH_LONG).show();
+                    }
+                }
+            };
             ftpconn.execute();
 
             JDBCconnection jdbcConnection = new JDBCconnection();
@@ -107,6 +129,15 @@ public class MainActivity extends AppCompatActivity {
 
             imageName.setText("");
         }
+    }
+
+    private void showProgressDialog() {
+        progressDialog = new ProgressDialog(
+                MainActivity.this,
+                ProgressDialog.STYLE_SPINNER);
+        progressDialog.setTitle("Uploading");
+        progressDialog.setMessage("please wait...");
+        progressDialog.show();
     }
 
     private void showPictureDialog() {
@@ -185,6 +216,7 @@ public class MainActivity extends AppCompatActivity {
     private void visibleButton() {
         imageName.setVisibility(View.VISIBLE);
         uploadImageToServer.setVisibility(View.VISIBLE);
+        imageSelected.setVisibility(View.VISIBLE);
     }
 
     private void displayImageSelected(int requestCode, int resultCode, Intent data) {

@@ -15,11 +15,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class ftpConnection extends AsyncTask {
-    private final String hostname = "ftp.dlptest.com";         //"test.rebex.net"
-    private final String userName = "dlpuser@dlptest.com";         //"demo"
-    private final String password = "3D6XZV9MKdhM5fF";        //"password"
+    private final String hostname = "ftp.dlptest.com";
+    private final String userName = "dlpuser@dlptest.com";
+    private final String password = "3D6XZV9MKdhM5fF";
     private String filePath;
-    private Activity context;
     private FTPClient ftpClient = null;
 
     private boolean login = false;
@@ -62,6 +61,7 @@ public class ftpConnection extends AsyncTask {
         }
     }
 
+
     public boolean upload() {
         FileInputStream fileInputStream = null;
 
@@ -100,14 +100,5 @@ public class ftpConnection extends AsyncTask {
         return (boolean)success;
     }
 
-    @Override
-    protected void onPostExecute(Object o) {
-        super.onPostExecute(o);
-        if((boolean)o) {
-            Toast.makeText(context,"successfully",Toast.LENGTH_LONG).show();
-        }
-        else {
-            Toast.makeText(context,"loi khong xac dinh, vui long thu lai",Toast.LENGTH_LONG).show();
-        }
-    }
+
 }
