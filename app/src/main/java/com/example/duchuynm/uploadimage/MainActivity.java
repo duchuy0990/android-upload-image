@@ -10,7 +10,6 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
@@ -101,8 +100,7 @@ public class MainActivity extends AppCompatActivity {
             File file = new File(filePath);
 
             final ftpConnection ftpconn = new ftpConnection(
-                    filePath,
-                    MainActivity.this) {
+                    filePath) {
 
                 @Override
                 protected void onPreExecute() {

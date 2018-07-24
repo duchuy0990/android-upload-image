@@ -1,11 +1,7 @@
 package com.example.duchuynm.uploadimage;
 
-import android.app.Activity;
-import android.app.ProgressDialog;
 import android.os.AsyncTask;
-import android.os.Process;
 import android.util.Log;
-import android.widget.Toast;
 
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
@@ -24,7 +20,7 @@ public class ftpConnection extends AsyncTask {
     private boolean login = false;
     boolean storeFile = false;
 
-    public ftpConnection(String filePath, Activity context) {
+    public ftpConnection(String filePath) {
         this.filePath = filePath;
     }
 

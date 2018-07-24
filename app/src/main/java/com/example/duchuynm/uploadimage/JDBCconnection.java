@@ -18,12 +18,6 @@ public class JDBCconnection extends AsyncTask<String, Void, Void> {
     private Connection conn = null;
     private PreparedStatement preparedStatement = null;
 
-    private boolean success = false;
-
-    public boolean isSuccess() {
-        return success;
-    }
-
     public void insert(String name, Date time, String device) {
         try {
             String status = "chua xem";
@@ -36,7 +30,6 @@ public class JDBCconnection extends AsyncTask<String, Void, Void> {
             preparedStatement.setString(3," "+device);
             preparedStatement.setString(4,status);
             preparedStatement.executeUpdate();
-            success = true;
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
