@@ -26,7 +26,6 @@ public class ftpConnection extends AsyncTask {
 
     public ftpConnection(String filePath, Activity context) {
         this.filePath = filePath;
-        this.context = context;
     }
 
     public boolean isSuccess() {
