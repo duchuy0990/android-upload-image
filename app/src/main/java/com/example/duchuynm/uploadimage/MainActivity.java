@@ -15,15 +15,22 @@ import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.MediaController;
 import android.widget.Toast;
+import android.widget.VideoView;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -32,11 +39,13 @@ public class MainActivity extends AppCompatActivity {
     Button chooseImage, uploadImageToServer;
     EditText imageName;
     ImageView imageSelected;
+    FrameLayout frameLayout;
 
     private int REQUEST_CODE_GALLERY = 9999;
     private int REQUEST_CODE_CAMERA = 9998;
+    private int REQUEST_CODE_VIDEO = 9997;
 
-    Bitmap bitmap;
+    Bitmap bitmap = null;
 
     String getTextFromEditText = " ";
 
@@ -44,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
     private java.sql.Date currentTime;
 
     ProgressDialog progressDialog;
+    private VideoView videoSelected;
+    private Uri videoUri = null;
 
 
     private void init() {
@@ -51,6 +62,8 @@ public class MainActivity extends AppCompatActivity {
         uploadImageToServer = findViewById(R.id.btnUploadtoServer);
         imageName = findViewById(R.id.edtImageName);
         imageSelected = findViewById(R.id.imageView);
+        videoSelected = findViewById(R.id.videoView);
+        frameLayout = findViewById(R.id.frame_layout_video);
     }
 
     @Override
@@ -89,8 +102,14 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this,"Internet chua duoc bat",Toast.LENGTH_LONG).show();
         }
         else {
+            String filePath;
             getDataToUpLoad();
-            final String filePath = saveImage(getTextFromEditText, bitmap);
+            if(bitmap != null) {
+                filePath = saveImage(getTextFromEditText, bitmap);
+            }
+            else {
+                filePath = saveVideo(getTextFromEditText, videoUri);
+            }
 
             Log.e("name", getTextFromEditText);
             Log.e("time", currentTime.toString());
@@ -143,7 +162,8 @@ public class MainActivity extends AppCompatActivity {
         pictureDialog.setTitle("Select Action");
         String[] pictureDialogItems = {
                 "Photo Gallery",
-                "Camera" };
+                "Camera",
+                "Video"};
         pictureDialog.setItems(pictureDialogItems,
                 new DialogInterface.OnClickListener() {
                     @Override
@@ -155,13 +175,21 @@ public class MainActivity extends AppCompatActivity {
                             case 1:
                                 takePhotoFromCamera();
                                 break;
+                            case 2:
+                                takeVideo();
+                                break;
                         }
                     }
                 });
         pictureDialog.show();
     }
 
-    public String saveImage(String fileName,Bitmap b) {
+    private void takeVideo() {
+        Intent videoIntent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
+        startActivityForResult(videoIntent,REQUEST_CODE_VIDEO);
+    }
+
+    public String saveImage(String fileName, Bitmap b) {
         File image = null;
         String path = Environment.getExternalStorageDirectory().getAbsolutePath().toString()+"/duchuy";
         final File Dir = new File(path);
@@ -185,6 +213,39 @@ public class MainActivity extends AppCompatActivity {
         return image.getAbsolutePath();
     }
 
+    public String saveVideo(String fileName, Uri uri) {
+        File video = null;
+        String path = Environment.getExternalStorageDirectory().getAbsolutePath().toString()+"/duchuy";
+        final File Dir = new File(path);
+        if(!Dir.exists()) {
+            Dir.mkdir();
+        }
+
+        fileName = ""+fileName+getTime();
+
+        try {
+            video = File.createTempFile(
+                    fileName,
+                    ".mp4",
+                    Dir);
+
+            InputStream inputStream = getContentResolver().openInputStream(uri);
+            FileOutputStream fos = new FileOutputStream(video);
+
+            byte[] b = new byte[1024];
+            int len;
+
+            while ((len = inputStream.read(b)) >0 ) {
+                fos.write(b,0,len);
+            }
+            inputStream.close();
+            fos.close();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        return video.getAbsolutePath();
+    }
+
     public String getTime() {
         String format = "yyyyMMddhhmmss";
         SimpleDateFormat df = new SimpleDateFormat(format);
@@ -205,37 +266,72 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    protected void onActivityResult(int requestCode,
+                                    int resultCode,
+                                    Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        displayImageSelected(requestCode,resultCode,data);
+        if((requestCode == REQUEST_CODE_CAMERA) && (resultCode == RESULT_OK)) {
+            visibleButton();
+            displayImageReturnedFromCamera(data);
+        }
+        else if(requestCode == REQUEST_CODE_GALLERY && resultCode == RESULT_OK) {
+            visibleButton();
+            displayImageReturnedFromGallery(data);
+        }
+        else if(requestCode == REQUEST_CODE_VIDEO && resultCode == RESULT_OK) {
+            displayVideo();
+            visibleButton();
+            displayVideoReturnedFromCamera(data);
+            videoUri = data.getData();
+        }
         imageName.setText("");
+    }
+
+    private void displayVideoReturnedFromCamera(Intent data) {
+        Uri uri = Uri.parse(data.getData().toString());
+        videoSelected.setVideoURI(uri);
+        displayVideo();
     }
 
     private void visibleButton() {
         imageName.setVisibility(View.VISIBLE);
         uploadImageToServer.setVisibility(View.VISIBLE);
+    }
+
+    private void displayImageReturnedFromCamera(Intent data) {
+        displayImage();
+        bitmap = (Bitmap) data.getExtras().get("data");
+        imageSelected.setImageBitmap(bitmap);
+    }
+
+    private void displayImage() {
         imageSelected.setVisibility(View.VISIBLE);
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT);
+        imageSelected.setLayoutParams(layoutParams);
     }
 
-    private void displayImageSelected(int requestCode, int resultCode, Intent data) {
-        if(check(requestCode,resultCode)) {
-            visibleButton();
-            if(requestCode == REQUEST_CODE_CAMERA) bitmap = (Bitmap) data.getExtras().get("data");
-            else {
-                Uri imageUri = data.getData();
-                try {
-                    bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), imageUri);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-            imageSelected.setImageBitmap(bitmap);
+    private void displayVideo() {
+        frameLayout.setVisibility(View.VISIBLE);
+        FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT);
+        videoSelected.setLayoutParams(params);
+        MediaController mediaController = new MediaController(MainActivity.this);
+        mediaController.setAnchorView(videoSelected);
+        videoSelected.setMediaController(mediaController);
+    }
+
+    private void displayImageReturnedFromGallery(Intent data) {
+        Uri imageUri = data.getData();
+        try {
+            displayImage();
+            bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), imageUri);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-    }
-
-    private boolean check(int requestCode, int resultCode) {
-        return (requestCode == REQUEST_CODE_CAMERA || requestCode == REQUEST_CODE_GALLERY)
-                && resultCode == RESULT_OK;
+        imageSelected.setImageBitmap(bitmap);
     }
 
     public String getDeviceName() {

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,26 +10,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/todo"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/frame_layout_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:contentDescription="@string/todo"
-                android:visibility="invisible"
-                app:srcCompat="@android:drawable/ic_menu_gallery" />
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical|center_horizontal|center|clip_horizontal" />
+    </FrameLayout>
 
-            <EditText
+    <EditText
                 android:id="@+id/edtImageName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -40,15 +48,14 @@
                 android:id="@+id/btnChooseImage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="CHOOSE" />
+                android:text="@string/choose" />
 
             <Button
                 android:id="@+id/btnUploadtoServer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="UPLOAD"
+                android:text="@string/upload"
                 android:visibility="invisible" />
-        </LinearLayout>
-    </ScrollView>
 
 </LinearLayout>
+</ScrollView>

@@ -2,4 +2,6 @@
     <string name="app_name">UploadImage</string>
     <string name="todo">TODO</string>
     <string name="name">Name</string>
+    <string name="choose">CHOOSE</string>
+    <string name="upload">UPLOAD</string>
 </resources>
