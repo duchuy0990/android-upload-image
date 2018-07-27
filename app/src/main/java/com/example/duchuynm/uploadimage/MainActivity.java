@@ -24,6 +24,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.MediaController;
+import android.widget.ScrollView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
@@ -40,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
     EditText imageName;
     ImageView imageSelected;
     FrameLayout frameLayout;
+    MediaController mediaController = null;
+    ScrollView scrollView;
 
     private int REQUEST_CODE_GALLERY = 9999;
     private int REQUEST_CODE_CAMERA = 9998;
@@ -137,6 +140,8 @@ public class MainActivity extends AppCompatActivity {
                     else {
                         Toast.makeText(MainActivity.this,"loi khong xac dinh",Toast.LENGTH_LONG).show();
                     }
+                    Intent i = new Intent(MainActivity.this,MainActivity.class);
+                    startActivity(i);
                 }
             };
             ftpconn.execute();
@@ -262,23 +267,25 @@ public class MainActivity extends AppCompatActivity {
     private void choosePhotoFromGallery() {
         Intent galleryIntent = new Intent(Intent.ACTION_PICK,
                 MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        galleryIntent.setType("image/* video/*");
         startActivityForResult(galleryIntent,REQUEST_CODE_GALLERY);
     }
 
     @Override
-    protected void onActivityResult(int requestCode,
-                                    int resultCode,
-                                    Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if((requestCode == REQUEST_CODE_CAMERA) && (resultCode == RESULT_OK)) {
+            invisibleVideoView();
+            visibleImageView();
             visibleButton();
-            displayImageReturnedFromCamera(data);
+            setDataImageView(data);
         }
         else if(requestCode == REQUEST_CODE_GALLERY && resultCode == RESULT_OK) {
             visibleButton();
-            displayImageReturnedFromGallery(data);
+            displayImageOrVideoReturnedFromGallery(data);
         }
         else if(requestCode == REQUEST_CODE_VIDEO && resultCode == RESULT_OK) {
+            bitmap = null;
             displayVideo();
             visibleButton();
             displayVideoReturnedFromCamera(data);
@@ -298,40 +305,69 @@ public class MainActivity extends AppCompatActivity {
         uploadImageToServer.setVisibility(View.VISIBLE);
     }
 
-    private void displayImageReturnedFromCamera(Intent data) {
-        displayImage();
+    private void setDataImageView(Intent data) {
         bitmap = (Bitmap) data.getExtras().get("data");
         imageSelected.setImageBitmap(bitmap);
     }
 
+    private void invisibleVideoView() {
+        videoSelected.setLayoutParams(new FrameLayout.LayoutParams(0,0));
+    }
+
     private void displayImage() {
-        imageSelected.setVisibility(View.VISIBLE);
+        invisibleVideoView();
+        visibleImageView();
+    }
+
+    private void invisibleImageView() {
+        imageSelected.setLayoutParams(new LinearLayout.LayoutParams(0,0));
+    }
+
+    private void visibleImageView() {
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT);
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                800);
+        layoutParams.gravity = Gravity.CENTER;
+        layoutParams.topMargin = 20;
         imageSelected.setLayoutParams(layoutParams);
     }
 
-    private void displayVideo() {
-        frameLayout.setVisibility(View.VISIBLE);
-        FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(
-                ViewGroup.LayoutParams.WRAP_CONTENT,
-                ViewGroup.LayoutParams.WRAP_CONTENT);
-        videoSelected.setLayoutParams(params);
-        MediaController mediaController = new MediaController(MainActivity.this);
-        mediaController.setAnchorView(videoSelected);
+    private void visibleVideoView() {
+        frameLayout.setLayoutParams(new LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                800
+        ));
+        videoSelected.setLayoutParams(new FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.MATCH_PARENT
+        ));
+        mediaController = new MediaController(MainActivity.this);
         videoSelected.setMediaController(mediaController);
     }
 
-    private void displayImageReturnedFromGallery(Intent data) {
-        Uri imageUri = data.getData();
+    private void displayVideo() {
+        invisibleImageView();
+        visibleVideoView();
+    }
+
+    private void displayImageOrVideoReturnedFromGallery(Intent data) {
+        Uri uri = data.getData();
+        String path = uri.getPath().toString();
+        String type = path.substring(path.indexOf("external")+9,path.indexOf("/media"));
         try {
-            displayImage();
-            bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), imageUri);
+            if(type.equals("images")) {
+                displayImage();
+                bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), uri);
+                imageSelected.setImageBitmap(bitmap);
+            }
+            else if(type.equals("video")) {
+                displayVideo();
+                videoSelected.setVideoURI(uri);
+                videoSelected.start();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        imageSelected.setImageBitmap(bitmap);
     }
 
     public String getDeviceName() {

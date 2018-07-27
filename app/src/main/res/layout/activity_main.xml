@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginTop="20dp"
-        android:adjustViewBounds="false"
-        android:contentDescription="@string/todo"
-        android:visibility="invisible"
-        app:srcCompat="@android:drawable/ic_menu_gallery" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <FrameLayout
-        android:id="@+id/frame_layout_video"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="invisible">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
 
-        <VideoView
-            android:id="@+id/videoView"
-            android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_gravity="center_vertical|center_horizontal|center|clip_horizontal" />
-    </FrameLayout>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/todo"
+                android:visibility="invisible"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
 
-    <EditText
+            <FrameLayout
+                android:id="@+id/frame_layout_video"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <EditText
                 android:id="@+id/edtImageName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -57,5 +60,6 @@
                 android:text="@string/upload"
                 android:visibility="invisible" />
 
-</LinearLayout>
-</ScrollView>
+        </LinearLayout>
+
+    </ScrollView>

@@ -11,9 +11,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class ftpConnection extends AsyncTask {
-    private final String hostname = "192.168.1.119";//"ftp.dlptest.com";
-    private final String userName = "diep";//"dlpuser@dlptest.com";
-    private final String password = "1234";//"3D6XZV9MKdhM5fF";
+    private final String hostname = "ftp.dlptest.com"; //"192.168.1.119";
+    private final String userName = "dlpuser@dlptest.com";  //"diep";
+    private final String password = "3D6XZV9MKdhM5fF";//"1234";
     private String filePath;
     private FTPClient ftpClient = null;
 
