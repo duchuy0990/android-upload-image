@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_account_operation_not_supported">이 작업은 지원되지 않음</string>
+    <string name="adobe_csdk_auth_required">인증 필요</string>
+    <string name="adobe_csdk_auth_sign_in_close">닫기</string>
+    <string name="adobe_csdk_cancelLogIn">취소</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">인터넷에 연결되지 않음</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">인증하는 동안 오류가 발생했습니다.\n나중에 다시 시도 하십시오.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"비디오를 미리 볼 수 있는 권한이 없는 사용자에 대한 메시지입니다."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Adobe ID 계정 전체 액세스</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">하나의 Adobe ID만 지원됨</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_id_pre_UDP_client_error">clientID는 이 버전의 Creative SDK와 호환되지 않습니다. 새 API 키에 대해 앱을 다시 등록하십시오.</string>
+    <string name="adobe_csdk_logIn">로그인</string>
+    <string name="adobe_csdk_proxy_passwd_label">암호</string>
+    <string name="adobe_csdk_proxy_username_label">사용자 이름</string>
+    <string name="adobe_csdk_restricted_region_error_message">현재 표시할 에셋이 없습니다.</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">서버 http://%s에는 사용자 이름 및 암호가 필요합니다. 서버: %s</string>
+    <string name="adobe_doc_action_bar_done_title">완료</string>
+</resources>

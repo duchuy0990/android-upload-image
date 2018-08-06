@@ -1,0 +1,4 @@
+#Thu Aug 02 15:02:08 ICT 2018
+base.0=/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

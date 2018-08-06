@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ds_photo_editor_crop_button_circle">圆圈</string>
+    <string name="ds_photo_editor_crop_button_free">自由</string>
+    <string name="ds_photo_editor_exit_dialog_message">离开照片编辑器并放弃编辑？</string>
+    <string name="ds_photo_editor_exit_dialog_negative_button">取消</string>
+    <string name="ds_photo_editor_exit_dialog_positive_button">退出</string>
+    <string name="ds_photo_editor_finish_up_loading_indicator">正在保存照片……</string>
+    <string name="ds_photo_editor_loading_indicator_loading">加载中...</string>
+    <string name="ds_photo_editor_main_bottom_bar_contrast">对比度</string>
+    <string name="ds_photo_editor_main_bottom_bar_crop">裁剪</string>
+    <string name="ds_photo_editor_main_bottom_bar_draw">绘画</string>
+    <string name="ds_photo_editor_main_bottom_bar_exposure">曝光度</string>
+    <string name="ds_photo_editor_main_bottom_bar_filter">滤镜</string>
+    <string name="ds_photo_editor_main_bottom_bar_frame">边框</string>
+    <string name="ds_photo_editor_main_bottom_bar_orientation">方向</string>
+    <string name="ds_photo_editor_main_bottom_bar_pixelate">马赛克</string>
+    <string name="ds_photo_editor_main_bottom_bar_round">圆角</string>
+    <string name="ds_photo_editor_main_bottom_bar_saturation">饱和度</string>
+    <string name="ds_photo_editor_main_bottom_bar_sharpness">锐度</string>
+    <string name="ds_photo_editor_main_bottom_bar_sticker">贴纸</string>
+    <string name="ds_photo_editor_main_bottom_bar_text">文字</string>
+    <string name="ds_photo_editor_main_bottom_bar_vignette">小插图</string>
+    <string name="ds_photo_editor_main_bottom_bar_warmth">色温</string>
+    <string name="ds_photo_editor_main_reset_menu">重置照片?</string>
+    <string name="ds_photo_editor_main_title">照片编辑器</string>
+    <string name="ds_photo_editor_text_dialog_hint">在此处输入文本</string>
+    <string name="ds_photo_editor_text_dialog_negative_button">取消</string>
+    <string name="ds_photo_editor_text_dialog_positive_button">确定</string>
+</resources>

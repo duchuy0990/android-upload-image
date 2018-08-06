@@ -4,4 +4,6 @@
     <string name="name">Name</string>
     <string name="choose">CHOOSE</string>
     <string name="upload">UPLOAD</string>
+    <string name="crop">Crop</string>
+    <string name="edit">Edit</string>
 </resources>

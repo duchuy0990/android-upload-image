@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ana ekrana git"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Yukarı git"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Diğer seçenekler"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Bitti"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tümünü göster"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Bir uygulama seçin"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KAPAT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AÇ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Ara…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Sorguyu temizle"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Arama sorgusu"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Ara"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Sorguyu gönder"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sesli arama"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Şununla paylaş"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ile paylaş"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Daralt"</string>
+    <string name="adobe_csdk_account_operation_not_supported">Bu eylem desteklenmiyor</string>
+    <string name="adobe_csdk_auth_required">Kimlik Doğrulaması Gerekli</string>
+    <string name="adobe_csdk_auth_sign_in_close">Kapat</string>
+    <string name="adobe_csdk_cancelLogIn">İPTAL</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">İnternet Bağlantısı Yok</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Kimlik doğrulanırken hata oluştu.\nDaha sonra tekrar deneyin.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Kullanıcının, videoyu önizleme yetkisi olmadığını gösteren mesaj."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Adobe ID hesabına tam erişim</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Yalnızca bir Adobe ID desteklenir</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_id_pre_UDP_client_error">İstemci ID’niz Creative SDK’nın bu sürümü ile uyumlu değil. Yeni bir API anahtarı için lütfen uygulamanızı yeniden kaydedin.</string>
+    <string name="adobe_csdk_logIn">OTURUM AÇ</string>
+    <string name="adobe_csdk_proxy_passwd_label">PAROLA</string>
+    <string name="adobe_csdk_proxy_username_label">KULLANICI ADI</string>
+    <string name="adobe_csdk_restricted_region_error_message">Görüntülenecek varlık bulunmuyor.</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">http://%s sunucusu, kullanıcı adı ve parola gerektiriyor. Sunucu mesajı: %s</string>
+    <string name="adobe_doc_action_bar_done_title">BİTTİ</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ara"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

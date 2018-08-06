@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_account_operation_not_supported">Denne handlingen støttes ikke</string>
+    <string name="adobe_csdk_auth_required">Autentisering påkrevet</string>
+    <string name="adobe_csdk_auth_sign_in_close">Lukk</string>
+    <string name="adobe_csdk_cancelLogIn">AVBRYT</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Ingen Internett-forbindelse</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Det oppstod en feil under autentiseringen.\nPrøv igjen senere.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Melding om at brukeren ikke har tilgang til forhåndsvisning av videoen."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Full tilgang til Adobe ID-konto</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Kun én Adobe ID støttes</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_id_pre_UDP_client_error">Din klient-ID er ikke kompatibel med denne versjonen av Creative SDK. Forhåndsregistrer appen din for en ny API-nøkkel.</string>
+    <string name="adobe_csdk_logIn">LOGG PÅ</string>
+    <string name="adobe_csdk_proxy_passwd_label">PASSORD</string>
+    <string name="adobe_csdk_proxy_username_label">BRUKERNAVN</string>
+    <string name="adobe_csdk_restricted_region_error_message">For øyeblikket er det ingen ressurser å vise.</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">Server http://%s ber om et brukernavn og et passord. Serveren sier: %s</string>
+    <string name="adobe_doc_action_bar_done_title">FERDIG</string>
+</resources>

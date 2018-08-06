@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_account_operation_not_supported">Den här åtgärden stöds inte</string>
+    <string name="adobe_csdk_auth_required">Autentisering krävs</string>
+    <string name="adobe_csdk_auth_sign_in_close">Stäng</string>
+    <string name="adobe_csdk_cancelLogIn">AVBRYT</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Ingen Internetanslutning</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Ett fel uppstod vid autentisering.\nProva igen senare.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Meddelande om att användaren inte har behörighet att förhandsgranska videon."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Full åtkomst till Adobe ID-konto</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Endast stöd för ett Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_id_pre_UDP_client_error">Ditt klient-ID är inte kompatibelt med den här versionen av Creative SDK. Registrera din app på nytt för att få en ny API-nyckel.</string>
+    <string name="adobe_csdk_logIn">INLOGGNING</string>
+    <string name="adobe_csdk_proxy_passwd_label">LÖSENORD</string>
+    <string name="adobe_csdk_proxy_username_label">ANVÄNDARNAMN</string>
+    <string name="adobe_csdk_restricted_region_error_message">För närvarande finns inga resurser att visa.</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">Servern http://%s kräver ett användarnamn och lösenord. Servern säger: %s</string>
+    <string name="adobe_doc_action_bar_done_title">KLAR</string>
+</resources>

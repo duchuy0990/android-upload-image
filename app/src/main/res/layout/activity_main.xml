@@ -1,65 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/scrollView"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+    <FrameLayout
+        android:id="@+id/frame_layout_video"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0">
+
+        <VideoView
+            android:id="@+id/videoView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            tools:context=".MainActivity">
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </FrameLayout>
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:adjustViewBounds="false"
-                android:contentDescription="@string/todo"
-                android:visibility="invisible"
-                app:srcCompat="@android:drawable/ic_menu_gallery" />
+    <EditText
+        android:id="@+id/edtImageName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
 
-            <FrameLayout
-                android:id="@+id/frame_layout_video"
-                android:layout_width="match_parent"
-                android:layout_height="0dp">
+    <Button
+        android:id="@+id/btnChooseImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/choose" />
 
-                <VideoView
-                    android:id="@+id/videoView"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center" />
-            </FrameLayout>
+    <Button
+        android:id="@+id/btnUploadtoServer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/upload"
+        android:visibility="invisible" />
 
-            <EditText
-                android:id="@+id/edtImageName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:ems="10"
-                android:hint="@string/name"
-                android:inputType="textPersonName"
-                android:visibility="invisible" />
-
-            <Button
-                android:id="@+id/btnChooseImage"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/choose" />
-
-            <Button
-                android:id="@+id/btnUploadtoServer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/upload"
-                android:visibility="invisible" />
-
-        </LinearLayout>
-
-    </ScrollView>
+</LinearLayout>

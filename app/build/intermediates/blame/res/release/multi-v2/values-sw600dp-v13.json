@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,206,267",
+                        "endColumns": "70,79,60,54",
+                        "endOffsets": "121,201,262,317"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "611,682,762,823",
+                        "endColumns": "70,79,60,54",
+                        "endOffsets": "677,757,818,873"
+                    }
+                },
+                {
+                    "source": "/home/duchuynm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ec5a2400edfbece76cddc00c51328174/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Điều hướng về trang chủ"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Điều hướng lên trên"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Thêm tùy chọn"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"TẮT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"BẬT"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Tìm kiếm truy vấn"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string name="ds_photo_editor_crop_button_circle">Vòng tròn</string>
+    <string name="ds_photo_editor_crop_button_free">Tự do</string>
+    <string name="ds_photo_editor_exit_dialog_message">Thoát và hủy chỉnh sửa hình?</string>
+    <string name="ds_photo_editor_exit_dialog_negative_button">Hủy</string>
+    <string name="ds_photo_editor_exit_dialog_positive_button">Thoát</string>
+    <string name="ds_photo_editor_finish_up_loading_indicator">Đang lưu hình...</string>
+    <string name="ds_photo_editor_loading_indicator_loading">Đang tải...</string>
+    <string name="ds_photo_editor_main_bottom_bar_contrast">Độ tương phản</string>
+    <string name="ds_photo_editor_main_bottom_bar_crop">Cắt</string>
+    <string name="ds_photo_editor_main_bottom_bar_draw">Vẽ tranh</string>
+    <string name="ds_photo_editor_main_bottom_bar_exposure">Phơi sáng</string>
+    <string name="ds_photo_editor_main_bottom_bar_filter">Bộ lọc</string>
+    <string name="ds_photo_editor_main_bottom_bar_frame">Khung</string>
+    <string name="ds_photo_editor_main_bottom_bar_orientation">Hướng</string>
+    <string name="ds_photo_editor_main_bottom_bar_pixelate">khảm</string>
+    <string name="ds_photo_editor_main_bottom_bar_round">Góc tròn</string>
+    <string name="ds_photo_editor_main_bottom_bar_saturation">Độ bão hòa</string>
+    <string name="ds_photo_editor_main_bottom_bar_sharpness">Độ sắc nét</string>
+    <string name="ds_photo_editor_main_bottom_bar_sticker">Nhãn dán</string>
+    <string name="ds_photo_editor_main_bottom_bar_text">Chữ</string>
+    <string name="ds_photo_editor_main_bottom_bar_vignette">Họa tiết</string>
+    <string name="ds_photo_editor_main_bottom_bar_warmth">Độ ấm</string>
+    <string name="ds_photo_editor_main_reset_menu">Đặt lại hình?</string>
+    <string name="ds_photo_editor_main_title">Trình chỉnh sửa hình</string>
+    <string name="ds_photo_editor_text_dialog_hint">Nhập chữ vào đây</string>
+    <string name="ds_photo_editor_text_dialog_negative_button">Hủy</string>
+    <string name="ds_photo_editor_text_dialog_positive_button">OK</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Tìm kiếm"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nb-rNO/values-nb-rNO.xml",
+            "map": [
+                {
+                    "source": "/home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/res/values-nb-rNO/values-nb-rNO.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,156,232,295,353,461,608,677,742,883,983,1089,1166,1349,1402,1468,1539,1656,1796",
+                        "endColumns": "100,75,62,57,107,146,68,64,140,99,105,76,182,52,65,70,116,139,66",
+                        "endOffsets": "151,227,290,348,456,603,672,737,878,978,1084,1161,1344,1397,1463,1534,1651,1791,1858"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"위로 탐색"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"옵션 더보기"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"완료"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"사용 안함"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"사용"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"검색..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>와(과) 공유"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
+    <string name="ds_photo_editor_crop_button_circle">원</string>
+    <string name="ds_photo_editor_crop_button_free">제한 없음</string>
+    <string name="ds_photo_editor_exit_dialog_message">사진 편집기를 종료하고 편집한 것을 삭제하시겠습니까?</string>
+    <string name="ds_photo_editor_exit_dialog_negative_button">취소</string>
+    <string name="ds_photo_editor_exit_dialog_positive_button">종료</string>
+    <string name="ds_photo_editor_finish_up_loading_indicator">사진 저장 중...</string>
+    <string name="ds_photo_editor_loading_indicator_loading">로드 중...</string>
+    <string name="ds_photo_editor_main_bottom_bar_contrast">대조</string>
+    <string name="ds_photo_editor_main_bottom_bar_crop">자르기</string>
+    <string name="ds_photo_editor_main_bottom_bar_draw">그리기</string>
+    <string name="ds_photo_editor_main_bottom_bar_exposure">노출</string>
+    <string name="ds_photo_editor_main_bottom_bar_filter">필터</string>
+    <string name="ds_photo_editor_main_bottom_bar_frame">프레임</string>
+    <string name="ds_photo_editor_main_bottom_bar_orientation">방향</string>
+    <string name="ds_photo_editor_main_bottom_bar_pixelate">모자이크</string>
+    <string name="ds_photo_editor_main_bottom_bar_round">라운드 코너</string>
+    <string name="ds_photo_editor_main_bottom_bar_saturation">포화</string>
+    <string name="ds_photo_editor_main_bottom_bar_sharpness">선명도</string>
+    <string name="ds_photo_editor_main_bottom_bar_sticker">스티커</string>
+    <string name="ds_photo_editor_main_bottom_bar_text">텍스트</string>
+    <string name="ds_photo_editor_main_bottom_bar_vignette">삽화</string>
+    <string name="ds_photo_editor_main_bottom_bar_warmth">따뜻함</string>
+    <string name="ds_photo_editor_main_reset_menu">사진 재설정?</string>
+    <string name="ds_photo_editor_main_title">사진 편집기</string>
+    <string name="ds_photo_editor_text_dialog_hint">텍스트를 여기에 입력하세요</string>
+    <string name="ds_photo_editor_text_dialog_negative_button">취소</string>
+    <string name="ds_photo_editor_text_dialog_positive_button">확인</string>
+    <string msgid="146198913615257606" name="search_menu_title">"검색"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

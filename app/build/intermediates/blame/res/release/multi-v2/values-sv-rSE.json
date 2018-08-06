@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv-rSE/values-sv-rSE.xml",
+            "map": [
+                {
+                    "source": "/home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/res/values-sv-rSE/values-sv-rSE.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,227,291,349,454,593,662,727,873,974,1085,1162,1355,1411,1478,1551,1667,1810",
+                        "endColumns": "98,72,63,57,104,138,68,64,145,100,110,76,192,55,66,72,115,142,64",
+                        "endOffsets": "149,222,286,344,449,588,657,722,868,969,1080,1157,1350,1406,1473,1546,1662,1805,1870"
+                    }
+                }
+            ]
+        }
+    ]
+}

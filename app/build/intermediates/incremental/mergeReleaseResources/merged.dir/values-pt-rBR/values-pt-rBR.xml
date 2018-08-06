@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVAR"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVAR"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="adobe_csdk_account_operation_not_supported">Esta ação não é suportada</string>
+    <string name="adobe_csdk_auth_required">Autenticação obirgatória</string>
+    <string name="adobe_csdk_auth_sign_in_close">Fechar</string>
+    <string name="adobe_csdk_cancelLogIn">CANCELAR</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Sem conexão com a Internet</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Ocorreu um erro durante a autenticação.\nTente novamente mais tarde.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Mensagem indicando que o usuário não está autorizado a visualizar o vídeo."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Acesso completo à conta Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Só é suportada uma Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_id_pre_UDP_client_error">Sua clientID não é compatível com esta versão do Creative SDK. Registre novamente seu aplicativo para obter uma nova chave da API.</string>
+    <string name="adobe_csdk_logIn">LOGON</string>
+    <string name="adobe_csdk_proxy_passwd_label">SENHA</string>
+    <string name="adobe_csdk_proxy_username_label">NOME DE USUÁRIO</string>
+    <string name="adobe_csdk_restricted_region_error_message">Atualmente não há nenhum ativo para ser exibido.</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">O servidor http://%s requer nome de usuário e senha. O servidor diz: %s</string>
+    <string name="adobe_doc_action_bar_done_title">CONCLUÍDO</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adobe_csdk_account_operation_not_supported">Denne handling understøttes ikke</string>
+    <string name="adobe_csdk_auth_required">Der kræves godkendelse</string>
+    <string name="adobe_csdk_auth_sign_in_close">Luk</string>
+    <string name="adobe_csdk_cancelLogIn">ANNULLER</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">Ingen internetforbindelse</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">Der opstod en fejl under verificeringen.\nPrøv igen senere.</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"Meddelse om at brugeren ikke er berettiget til at se videoen."</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Fuld adgang til Adobe ID-konto</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">Der understøttes kun et Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_id_pre_UDP_client_error">Dit kunde-id er ikke kompatibelt med denne version af Creative SDK. Registrer din app igen for at få en API-nøgle.</string>
+    <string name="adobe_csdk_logIn">LOG PÅ</string>
+    <string name="adobe_csdk_proxy_passwd_label">ADGANGSKODE</string>
+    <string name="adobe_csdk_proxy_username_label">BRUGERNAVN</string>
+    <string name="adobe_csdk_restricted_region_error_message">Der er i øjeblikket ingen ressourcer at vise.</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">Serveren http://%s kræver brugernavn og adgangskode. Serveren siger: %s</string>
+    <string name="adobe_doc_action_bar_done_title">UDFØRT</string>
+</resources>

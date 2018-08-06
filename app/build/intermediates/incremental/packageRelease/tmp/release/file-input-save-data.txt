@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Thu Aug 02 15:02:08 ICT 2018
+1.base=/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/transforms/dexMerger/release/0
+2.path=fonts/AdobeClean-Regular.otf
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/assets/release
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=fonts/AdobeClean-SemiLight.otf
+count=4
+1.set=DEX
+0.path=fonts/AdobeClean-Light.otf
+3.base=/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/assets/release
+0.set=ASSET
+0.base=/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/assets/release
+2.baseType=DIRECTORY
+1.path=classes.dex

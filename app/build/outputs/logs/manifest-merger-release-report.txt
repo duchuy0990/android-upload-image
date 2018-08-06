@@ -1,0 +1,199 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ec5a2400edfbece76cddc00c51328174/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.1.aar/e74feebfb1dac3987e16dfaf3d6f7be3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.birbit:android-priority-jobqueue:2.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/android-priority-jobqueue-2.0.1.aar/f5d2a1a54be9aa56f21884bb1a838ff5/AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:support-v4:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/0446069bbe1dd377fec1fb5e78a6e43a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9c871ca09d2c7599945d42ccda336eab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/211f7b57ff92770654b37e7b06797bb6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/1cb666df9b7e31d8f0ec87062953bf88/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4265184585c2c285afa00c5a3fdf332d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c47bb5dc0c639da8bf11ec911201f3f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/cf8ca1595288a2cb266caf49520c472e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/902f495f4a948a355a485e9b86c1ba7c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e1e8101f96e60c7211b56a1e32adf440/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e64cf272afe2f66d96435abf3ac4b1c1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c22d04383a31e2295ff8667e00b6e5d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b43199e5ac8dd457d21de5f8b388f3d4/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:12:5-79
+MERGED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:12:5-79
+MERGED from [com.birbit:android-priority-jobqueue:2.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/android-priority-jobqueue-2.0.1.aar/f5d2a1a54be9aa56f21884bb1a838ff5/AndroidManifest.xml:14:5-79
+MERGED from [com.birbit:android-priority-jobqueue:2.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/android-priority-jobqueue-2.0.1.aar/f5d2a1a54be9aa56f21884bb1a838ff5/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:7:5-64
+	android:name
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:8:5-66
+MERGED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:11:5-67
+MERGED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:11:5-67
+MERGED from [com.birbit:android-priority-jobqueue:2.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/android-priority-jobqueue-2.0.1.aar/f5d2a1a54be9aa56f21884bb1a838ff5/AndroidManifest.xml:13:5-67
+MERGED from [com.birbit:android-priority-jobqueue:2.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/android-priority-jobqueue-2.0.1.aar/f5d2a1a54be9aa56f21884bb1a838ff5/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:9:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:10:22-77
+application
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:12:5-27:19
+MERGED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:21:5-50:19
+MERGED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:21:5-50:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.1.aar/e74feebfb1dac3987e16dfaf3d6f7be3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.1.aar/e74feebfb1dac3987e16dfaf3d6f7be3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/0446069bbe1dd377fec1fb5e78a6e43a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/0446069bbe1dd377fec1fb5e78a6e43a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/1cb666df9b7e31d8f0ec87062953bf88/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/1cb666df9b7e31d8f0ec87062953bf88/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:18:9-40
+activity#com.example.duchuynm.uploadimage.MainActivity
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:19:9-26:20
+	android:screenOrientation
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:20:13-49
+	android:name
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:19:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+MERGED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ec5a2400edfbece76cddc00c51328174/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/ec5a2400edfbece76cddc00c51328174/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.1.aar/e74feebfb1dac3987e16dfaf3d6f7be3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.1.aar/e74feebfb1dac3987e16dfaf3d6f7be3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.birbit:android-priority-jobqueue:2.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/android-priority-jobqueue-2.0.1.aar/f5d2a1a54be9aa56f21884bb1a838ff5/AndroidManifest.xml:8:5-11:155
+MERGED from [com.birbit:android-priority-jobqueue:2.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/android-priority-jobqueue-2.0.1.aar/f5d2a1a54be9aa56f21884bb1a838ff5/AndroidManifest.xml:8:5-11:155
+MERGED from [com.android.support:support-v4:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/0446069bbe1dd377fec1fb5e78a6e43a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/0446069bbe1dd377fec1fb5e78a6e43a/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9c871ca09d2c7599945d42ccda336eab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9c871ca09d2c7599945d42ccda336eab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/211f7b57ff92770654b37e7b06797bb6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/211f7b57ff92770654b37e7b06797bb6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/1cb666df9b7e31d8f0ec87062953bf88/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/1cb666df9b7e31d8f0ec87062953bf88/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4265184585c2c285afa00c5a3fdf332d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/4265184585c2c285afa00c5a3fdf332d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c47bb5dc0c639da8bf11ec911201f3f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c47bb5dc0c639da8bf11ec911201f3f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/cf8ca1595288a2cb266caf49520c472e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/cf8ca1595288a2cb266caf49520c472e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/902f495f4a948a355a485e9b86c1ba7c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/902f495f4a948a355a485e9b86c1ba7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e1e8101f96e60c7211b56a1e32adf440/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e1e8101f96e60c7211b56a1e32adf440/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e64cf272afe2f66d96435abf3ac4b1c1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e64cf272afe2f66d96435abf3ac4b1c1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c22d04383a31e2295ff8667e00b6e5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4c22d04383a31e2295ff8667e00b6e5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b43199e5ac8dd457d21de5f8b388f3d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b43199e5ac8dd457d21de5f8b388f3d4/AndroidManifest.xml:20:5-44
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.birbit:android-priority-jobqueue:2.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/android-priority-jobqueue-2.0.1.aar/f5d2a1a54be9aa56f21884bb1a838ff5/AndroidManifest.xml:11:9-152
+	android:targetSdkVersion
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+		ADDED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+		INJECTED from /home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/AndroidManifest.xml
+activity#com.adobe.creativesdk.foundation.internal.auth.AdobeAuthSignInActivity
+ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:22:9-28:83
+	android:label
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:25:13-62
+	android:multiprocess
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:26:13-40
+	android:windowSoftInputMode
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:28:13-80
+	android:exported
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:24:13-37
+	android:theme
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:27:13-58
+	android:name
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:23:13-98
+activity#com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity
+ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:29:9-36:83
+	android:label
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:32:13-62
+	android:multiprocess
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:34:13-40
+	android:launchMode
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:33:13-48
+	android:windowSoftInputMode
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:36:13-80
+	android:exported
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:35:13-58
+	android:name
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:30:13-108
+activity#com.adobe.creativesdk.foundation.internal.base.AdobeTOUHandlerActivity
+ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:49:9-107
+	android:name
+		ADDED from [com.adobe.creativesdk.foundation:auth:0.9.2006-5] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/auth-0.9.2006-5.aar/3a162ed63abaaa5c5225a5ed25d70ee2/AndroidManifest.xml:49:19-104
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/0446069bbe1dd377fec1fb5e78a6e43a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/1cb666df9b7e31d8f0ec87062953bf88/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.1.aar/1cb666df9b7e31d8f0ec87062953bf88/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/0446069bbe1dd377fec1fb5e78a6e43a/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.0.1] /home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.1.aar/0446069bbe1dd377fec1fb5e78a6e43a/AndroidManifest.xml:27:13-51

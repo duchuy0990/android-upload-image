@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="adobe_csdk_account_operation_not_supported">不支援此動作</string>
+    <string name="adobe_csdk_auth_required">需要驗證</string>
+    <string name="adobe_csdk_auth_sign_in_close">關閉</string>
+    <string name="adobe_csdk_cancelLogIn">取消</string>
+    <string name="adobe_csdk_common_error_view_no_internet_connection">無網際網路連線</string>
+    <string name="adobe_csdk_common_error_view_unknown_authenticate_error">驗證時發生錯誤。\n請稍候再試。</string>
+    <string name="adobe_csdk_creative_cloud">Creative Cloud</string>
+    <string name="adobe_csdk_creative_sdk">Creative SDK</string>
+    <string name="adobe_csdk_error_not_entitled_to_video">"關於使用者的訊息未標示在視訊裡供預覽。"</string>
+    <string name="adobe_csdk_id_authenticator_accesslabel">Adobe ID 帳號的完全存取</string>
+    <string name="adobe_csdk_id_authenticator_add_account_error_onlyone">只支援一個 Adobe ID</string>
+    <string name="adobe_csdk_id_authenticator_settings_label">Adobe</string>
+    <string name="adobe_csdk_id_pre_UDP_client_error">您的 clientID 與此版本的 Creative SDK 不相容。請以新的 API 密鑰重新註冊應用程式。</string>
+    <string name="adobe_csdk_logIn">登入</string>
+    <string name="adobe_csdk_proxy_passwd_label">密碼</string>
+    <string name="adobe_csdk_proxy_username_label">使用者名稱</string>
+    <string name="adobe_csdk_restricted_region_error_message">目前無資產可顯示。</string>
+    <string formatted="false" name="adobe_csdk_warning_msg">伺服器 http://%s 需要使用者名稱及密碼。伺服器表示：%s</string>
+    <string name="adobe_doc_action_bar_done_title">完成</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

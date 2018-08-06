@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"關閉"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"開啟"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜尋…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="ds_photo_editor_crop_button_circle">圆圈</string>
+    <string name="ds_photo_editor_crop_button_free">自由</string>
+    <string name="ds_photo_editor_exit_dialog_message">離開照片編輯器並放棄編輯？</string>
+    <string name="ds_photo_editor_exit_dialog_negative_button">取消</string>
+    <string name="ds_photo_editor_exit_dialog_positive_button">退出</string>
+    <string name="ds_photo_editor_finish_up_loading_indicator">正在儲存照片……</string>
+    <string name="ds_photo_editor_loading_indicator_loading">載入中...</string>
+    <string name="ds_photo_editor_main_bottom_bar_contrast">對比度</string>
+    <string name="ds_photo_editor_main_bottom_bar_crop">裁剪</string>
+    <string name="ds_photo_editor_main_bottom_bar_draw">繪畫</string>
+    <string name="ds_photo_editor_main_bottom_bar_exposure">曝光度</string>
+    <string name="ds_photo_editor_main_bottom_bar_filter">濾鏡</string>
+    <string name="ds_photo_editor_main_bottom_bar_frame">邊框</string>
+    <string name="ds_photo_editor_main_bottom_bar_orientation">方向</string>
+    <string name="ds_photo_editor_main_bottom_bar_pixelate">馬賽克</string>
+    <string name="ds_photo_editor_main_bottom_bar_round">圆角</string>
+    <string name="ds_photo_editor_main_bottom_bar_saturation">飽和度</string>
+    <string name="ds_photo_editor_main_bottom_bar_sharpness">銳度</string>
+    <string name="ds_photo_editor_main_bottom_bar_sticker">貼紙</string>
+    <string name="ds_photo_editor_main_bottom_bar_text">文字</string>
+    <string name="ds_photo_editor_main_bottom_bar_vignette">小插圖</string>
+    <string name="ds_photo_editor_main_bottom_bar_warmth">色温</string>
+    <string name="ds_photo_editor_main_reset_menu">重設照片?</string>
+    <string name="ds_photo_editor_main_title">照片編輯器</string>
+    <string name="ds_photo_editor_text_dialog_hint">在此處輸入文字</string>
+    <string name="ds_photo_editor_text_dialog_negative_button">取消</string>
+    <string name="ds_photo_editor_text_dialog_positive_button">確定</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

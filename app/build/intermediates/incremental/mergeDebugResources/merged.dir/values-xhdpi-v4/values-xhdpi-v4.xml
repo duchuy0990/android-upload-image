@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_ds_photo_editor_crop_button_font_size">22sp</dimen>
+    <dimen name="activity_ds_photo_editor_crop_button_margin">8dp</dimen>
+    <dimen name="activity_ds_photo_editor_crop_image_view_padding">10dp</dimen>
+    <dimen name="activity_ds_photo_editor_draw_image_button_margin">5dp</dimen>
+    <dimen name="activity_ds_photo_editor_draw_image_button_padding">2dp</dimen>
+    <dimen name="activity_ds_photo_editor_frame_layout_margin">6dp</dimen>
+    <dimen name="activity_ds_photo_editor_sticker_image_button_margin">12dp</dimen>
+    <dimen name="activity_ds_photo_editor_sticker_image_button_size">50dp</dimen>
+    <dimen name="activity_ds_photo_editor_sticker_view_margin">60px</dimen>
+    <dimen name="activity_ds_photo_editor_text_image_button_margin">12dp</dimen>
+    <dimen name="activity_ds_photo_editor_text_sticker_view_margin">50px</dimen>
+    <dimen name="activity_ds_photo_editor_top_bar_title_font_size">22sp</dimen>
+    <dimen name="dialog_ds_photo_editor_text_sticker_margin_bottom">5dp</dimen>
+    <dimen name="dialog_ds_photo_editor_text_sticker_margin_left">5dp</dimen>
+    <dimen name="dialog_ds_photo_editor_text_sticker_margin_right">5dp</dimen>
+    <dimen name="dialog_ds_photo_editor_text_sticker_margin_top">15dp</dimen>
+    <dimen name="fragment_ds_photo_editor_frame_image_button_margin">10dp</dimen>
+    <dimen name="fragment_ds_photo_editor_frame_image_button_padding">3dp</dimen>
+    <dimen name="fragment_ds_photo_editor_main_bottom_bar_button_font_size">11sp</dimen>
+    <dimen name="fragment_ds_photo_editor_main_bottom_bar_button_horizontal_padding">7dp</dimen>
+    <dimen name="fragment_ds_photo_editor_main_bottom_bar_button_min_width">36dp</dimen>
+    <dimen name="fragment_ds_photo_editor_main_bottom_bar_button_vertical_padding">10dp</dimen>
+    <dimen name="fragment_ds_photo_editor_main_bottom_bar_button_width">80dp</dimen>
+    <dimen name="fragment_ds_photo_editor_orientation_button_padding">10dp</dimen>
+    <dimen name="fragment_ds_photo_editor_seekbar_margin">20dp</dimen>
+    <dimen name="layout_ds_photo_editor_filter_image_button_margin">10dp</dimen>
+    <dimen name="layout_ds_photo_editor_filter_image_button_padding">3dp</dimen>
+</resources>
