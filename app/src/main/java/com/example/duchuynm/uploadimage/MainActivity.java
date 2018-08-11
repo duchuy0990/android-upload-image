@@ -1,13 +1,14 @@
 package com.example.duchuynm.uploadimage;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Matrix;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
@@ -15,14 +16,13 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -60,10 +60,10 @@ public class MainActivity extends AppCompatActivity {
             .getExternalStorageDirectory()
             .toString()
             +"/UploadImage";
-    private int REQUEST_CODE_GALLERY = 9999;
-    private int REQUEST_CODE_CAMERA = 9998;
-    private int REQUEST_CODE_VIDEO = 9997;
-    private int PIC_EDIT = 9995;
+    private static final int REQUEST_CODE_GALLERY = 9999;
+    private static final int REQUEST_CODE_CAMERA = 9998;
+    private static final int REQUEST_CODE_VIDEO = 9997;
+    private static final int PIC_EDIT = 9995;
     private int TYPE_IMAGE = 0;
     private int TYPE_VIDEO = 1;
 
@@ -187,6 +187,77 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    private void askPermissionAccessCamera(int requestCode) {
+        if (android.os.Build.VERSION.SDK_INT >= 23) {
+            int readPermission = ActivityCompat.checkSelfPermission(this,
+                    Manifest.permission.READ_EXTERNAL_STORAGE);
+            int writePermission = ActivityCompat.checkSelfPermission(this,
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE);
+
+            int accessCameraPermission = ActivityCompat.checkSelfPermission(
+                    this,
+                    Manifest.permission.CAMERA);
+
+            if (writePermission != PackageManager.PERMISSION_GRANTED ||
+                    readPermission != PackageManager.PERMISSION_GRANTED ||
+                    accessCameraPermission != PackageManager.PERMISSION_GRANTED)
+            {
+                this.requestPermissions(
+                        new String[]{
+                                Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                                Manifest.permission.READ_EXTERNAL_STORAGE,
+                                Manifest.permission.CAMERA
+                        },
+                        requestCode
+                );
+                return;
+            }
+        }
+        this.takePhotoFromCamera();
+    }
+
+
+    @Override
+    public void onRequestPermissionsResult(
+            int requestCode,
+            @NonNull String[] permissions,
+            @NonNull int[] grantResults) {
+
+        switch (requestCode) {
+            case REQUEST_CODE_CAMERA: {
+                if(grantResults.length > 1
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED
+                        && grantResults[1] == PackageManager.PERMISSION_GRANTED
+                        && grantResults[2] == PackageManager.PERMISSION_GRANTED) {
+                    takePhotoFromCamera();
+                }
+            }
+
+            case REQUEST_CODE_VIDEO: {
+                if(grantResults.length > 1
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED
+                        && grantResults[1] == PackageManager.PERMISSION_GRANTED
+                        && grantResults[2] == PackageManager.PERMISSION_GRANTED) {
+                    takeVideo();
+                }
+            }
+
+            case REQUEST_CODE_GALLERY: {
+                if(grantResults.length > 1
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED
+                        && grantResults[1] == PackageManager.PERMISSION_GRANTED
+                        && grantResults[2] == PackageManager.PERMISSION_GRANTED) {
+                    choosePhotoFromGallery();
+                }
+            }
+
+
+
+        }
+
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    }
+
     private void showProgressDialog() {
         progressDialog = new ProgressDialog(
                 MainActivity.this,
@@ -210,15 +281,33 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         switch (which) {
-                            case 0:
-                                choosePhotoFromGallery();
+                            case 0: {
+                                if(Build.VERSION.SDK_INT >= 23) {
+                                    askPermissionAccessCamera(REQUEST_CODE_GALLERY);
+                                }
+                                else {
+                                    choosePhotoFromGallery();
+                                }
                                 break;
-                            case 1:
-                                takePhotoFromCamera();
+                            }
+                            case 1: {
+                                if(Build.VERSION.SDK_INT >= 23) {
+                                    askPermissionAccessCamera(REQUEST_CODE_CAMERA);
+                                }
+                                else {
+                                    takePhotoFromCamera();
+                                }
                                 break;
-                            case 2:
-                                takeVideo();
+                            }
+                            case 2: {
+                                if(Build.VERSION.SDK_INT >= 23) {
+                                    askPermissionAccessCamera(REQUEST_CODE_CAMERA);
+                                }
+                                else {
+                                    takeVideo();
+                                }
                                 break;
+                            }
                         }
                     }
                 });

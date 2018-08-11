@@ -1,4 +1,4 @@
-#Sun Aug 05 11:59:50 ICT 2018
-base.0=/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/transforms/dexMerger/debug/110
+#Fri Aug 10 17:01:50 ICT 2018
+base.0=/home/duchuynm/AndroidStudioProjects/android-upload-image/app/build/intermediates/transforms/dexMerger/debug/59
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/duchuynm/AndroidStudioProjects/UploadImage/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/duchuynm/AndroidStudioProjects/UploadImage/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/duchuynm/AndroidStudioProjects/android-upload-image/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/duchuynm/AndroidStudioProjects/android-upload-image/app/src/debug/shaders"/></dataSet></merger>

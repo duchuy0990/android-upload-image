@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/duchuynm/AndroidStudioProjects/UploadImage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
+            "outputFile": "/home/duchuynm/AndroidStudioProjects/android-upload-image/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
             "map": [
                 {
                     "source": "/home/duchuynm/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/43c95d8482334bfaa5e7e580a9bcbc4f/res/values-bg/values-bg.xml",
